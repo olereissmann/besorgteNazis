@@ -35,7 +35,6 @@ function handleText(textNode)
 	v = v.replace(/\bAsylgegner\b/g, "Rassisten");
 	v = v.replace(/\bAsylkritiker\b/g, "Rassisten");
 	v = v.replace(/\bBesorgte Bürger\b/g, "Nazis");
-	v = v.replace(/\bbesorgte Bürger\b/g, "Nazis");
 
 
 	textNode.nodeValue = v;
