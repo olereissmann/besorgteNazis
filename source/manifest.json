@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Besorgte Bürger",
+	"version": "1.0",
+	"description": "Ersetzt 'besorgte Bürger' mit 'Nazis' und 'Asylgegner' mit 'Rassisten'. Gerne, dafür nicht!",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
